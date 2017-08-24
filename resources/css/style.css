@@ -1,0 +1,72 @@
+body {
+	margin: 30px;
+}
+
+
+h1 {
+	text-align: center;
+    margin: ;
+	background: blue;
+	font-size: 70px;
+	padding: 100px;
+	background-image: url('../images/pattern.jpg');
+}
+
+section {
+	margin: 10px;
+}
+
+section a {
+	display: inline-block;
+	width: 25%;
+	padding: 40px;
+	background: #9ceaed;
+	text-align: center;
+	text-decoration: none;
+	font-size: 30px;
+	color: black;
+	border: black solid 4px;
+	margin-right: 8px;
+}
+
+/*
+
+.dasmotos {
+	background-image: url("../images/dasmotos.jpeg");
+}
+
+.excursion {
+	background-image: url('../images/excursion.jpg');
+}
+
+.broadway {
+	background-image: url('../images/broadway.png');
+}
+
+*/
+
+section a:hover {
+	opacity: .7;
+} 
+
+img {
+	margin: 5px 550px;
+	animation: slideIn 3s;
+}
+
+@keyframes slideIn {
+	0% {transform: translateY(300px);}
+	70% {transform: translateY(-50px);}
+	100% { transform: translateY(0); }
+
+
+}
+
+
+
+
+
+
+
+
+
