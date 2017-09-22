@@ -1,66 +1,77 @@
 body {
 	margin: 30px;
+	background: #e0fff7;
 }
 
 
 h1 {
 	text-align: center;
     margin: ;
-	background: blue;
-	font-size: 70px;
+	background: #9ceaed;
+	font-size: 370%;
 	padding: 100px;
-	background-image: url('../images/pattern.jpg');
 }
+
+/* background-image: url('../images/pattern.jpg'); */
 
 section {
 	margin: 10px;
 }
-
-section a {
-	display: inline-block;
-	width: 25%;
-	padding: 40px;
-	background: #9ceaed;
-	text-align: center;
-	text-decoration: none;
-	font-size: 30px;
+ section a {
+ 	display: block;
+ 	text-align: center;
+ 	text-decoration: none;
+ 	background: #9ceaed;
+ 	border: black solid 2px;
+	margin-top: 10px;
+	font-size: 180%;
+	padding: 15%;
 	color: black;
-	border: black solid 4px;
-	margin-right: 8px;
-}
+ }
 
-/*
+
 
 .dasmotos {
 	background-image: url("../images/dasmotos.jpeg");
+	background-size: cover;
 }
 
 .excursion {
 	background-image: url('../images/excursion.jpg');
+	background-size: cover;
 }
 
 .broadway {
 	background-image: url('../images/broadway.png');
+	background-size: cover;
 }
 
-*/
+.mytimes {
+	background-image: url('../images/mytimes.png');
+	background-size: cover;
+	color: white;
+}
+
 
 section a:hover {
 	opacity: .7;
 } 
 
-img {
-	margin: 5px 550px;
-	animation: slideIn 3s;
+@media screen and (min-width: 900px) {
+	section a {
+	   display: inline-block;
+	   width: 25%;
+	   padding: 40px;
+	   text-decoration: none;
+	   font-size: 30px;
+	   border: black solid 4px;
+	   margin-right: 8px;
+	   margin-top: 10px;
+   }
 }
 
-@keyframes slideIn {
-	0% {transform: translateY(300px);}
-	70% {transform: translateY(-50px);}
-	100% { transform: translateY(0); }
 
 
-}
 
 
 
