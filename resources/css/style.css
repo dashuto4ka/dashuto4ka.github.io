@@ -52,6 +52,10 @@ section {
 	color: white;
 }
 
+.teacozy {
+	background-image: url('../images/teacozy.jpg');
+	background-size: cover;
+}
 
 section a:hover {
 	opacity: .7;
