@@ -1,18 +1,18 @@
 body {
 	margin: 30px;
-	background: #e0fff7;
+	background: #18a095;
+	color: white;
 }
 
 
-h1 {
-	text-align: center;
-    margin: ;
-	background: #9ceaed;
-	font-size: 370%;
+header {
 	padding: 100px;
+	text-align: center;
+	background: #db5561;
+	font-size: 200%;
+	border: solid black 4px;
+	opacity: .9;
 }
-
-/* background-image: url('../images/pattern.jpg'); */
 
 section {
 	margin: 10px;
@@ -21,45 +21,42 @@ section {
  	display: block;
  	text-align: center;
  	text-decoration: none;
- 	background: #9ceaed;
+ 	background: #db5561;
  	border: black solid 2px;
 	margin-top: 10px;
 	font-size: 180%;
 	padding: 15%;
-	color: black;
+	color: white;
  }
 
-
-
-.dasmotos {
+.dasmotos:hover {
 	background-image: url("../images/dasmotos.jpeg");
 	background-size: cover;
 }
 
-.excursion {
+.excursion:hover {
 	background-image: url('../images/excursion.jpg');
 	background-size: cover;
 }
 
-.broadway {
+.broadway:hover {
 	background-image: url('../images/broadway.png');
 	background-size: cover;
 }
 
-.mytimes {
+.mytimes:hover {
 	background-image: url('../images/mytimes.png');
 	background-size: cover;
-	color: white;
 }
 
-.teacozy {
+.teacozy:hover {
 	background-image: url('../images/teacozy.jpg');
 	background-size: cover;
 }
 
-section a:hover {
+/* section a:hover {
 	opacity: .7;
-} 
+} */
 
 @media screen and (min-width: 900px) {
 	section a {
