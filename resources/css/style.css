@@ -46,9 +46,15 @@ section {
 	color: white;
  }
 
+
+
 .dasmotos:hover {
 	background-image: url("../images/dasmotos.jpeg");
 	background-size: cover;
+}
+
+.dasmotos:hover:after {
+	content: "   (Unit 1)";
 }
 
 .excursion:hover {
@@ -71,12 +77,16 @@ section {
 	background-size: cover;
 }
 
+.secret-agent:hover {
+	background-image: url('../images/moto.jpeg');
+	background-size: cover;
+}
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 700px) {
 	
 	section a {
-	   width: 25%;
-	   padding: 40px;
+	   width: 45%;
+	   padding: 40px 0;
 	   text-decoration: none;
 	   font-size: 30px;
 	   border: black solid 4px;
@@ -89,6 +99,13 @@ section {
 	   flex-direction: row;
 	   width: 90%;
    }
+}
+
+@media screen and (min-width: 1100px) {
+	section a {
+		width: 25%;
+		padding: 40px;
+	}
 }
 
 
