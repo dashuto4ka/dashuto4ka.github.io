@@ -6,26 +6,43 @@ body {
 
 
 header {
-	padding: 100px;
-	text-align: center;
+	padding: 50px;
 	background: #db5561;
 	font-size: 200%;
 	border: solid black 4px;
-	opacity: .9;
+}
+
+header h1 {
+	text-align: center;
+}
+
+header img {
+	width: 200px;
+	height: 150px;
+	border-bottom: solid white 4px;
+}
+
+.images {
+	display: flex;
+	justify-content: center;
 }
 
 section {
-	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 20px auto;
+	width: 100%;
+
 }
  section a {
- 	display: block;
  	text-align: center;
  	text-decoration: none;
  	background: #db5561;
- 	border: black solid 2px;
+ 	border: black solid 4px;
 	margin-top: 10px;
 	font-size: 180%;
-	padding: 15%;
+	padding: 20px 10px;
 	color: white;
  }
 
@@ -39,12 +56,12 @@ section {
 	background-size: cover;
 }
 
-.broadway:hover {
+.broadway:hover{
 	background-image: url('../images/broadway.png');
 	background-size: cover;
 }
 
-.mytimes:hover {
+.mytimes:hover{
 	background-image: url('../images/mytimes.png');
 	background-size: cover;
 }
@@ -54,13 +71,10 @@ section {
 	background-size: cover;
 }
 
-/* section a:hover {
-	opacity: .7;
-} */
 
 @media screen and (min-width: 900px) {
+	
 	section a {
-	   display: inline-block;
 	   width: 25%;
 	   padding: 40px;
 	   text-decoration: none;
@@ -68,6 +82,12 @@ section {
 	   border: black solid 4px;
 	   margin-right: 8px;
 	   margin-top: 10px;
+   }
+
+   section {
+	   flex-wrap: wrap;
+	   flex-direction: row;
+	   width: 90%;
    }
 }
 
