@@ -80,6 +80,14 @@ section {
 .secret-agent:hover {
 	background-image: url('../images/moto.jpeg');
 	background-size: cover;
+	color: #db5561;
+}
+
+.tortoiseshell:hover {
+	background-image: url('../images/tortoiseshell.png');
+	background-size: cover;
+	color: #db5561;
+	text-shadow: 2px 2px 4px #000000;
 }
 
 @media screen and (min-width: 700px) {
